@@ -86,6 +86,11 @@ const Header = () => {
               Service
             </li>
             </Link>
+            <Link to={"/FeedBack"}>
+            <li className="text-lg text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer">
+              FeedBack
+            </li>
+            </Link>
           </motion.ul>
 
           <div
@@ -161,7 +166,10 @@ const Header = () => {
                       Order History <MdLogout />
                     </p>
                   </Link>
+                  
                 )}
+                
+                
 
                 <p
                   className="px-4 py-4 flex items-center gap-3 cursor-pointer hover:bg-slate-100 transition-all duration-100 ease-in-out text-textColor text-base"

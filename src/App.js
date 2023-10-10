@@ -9,6 +9,7 @@ import OrderHistory from "./components/OrderHistory";
 import ManageProd from "./components/ManageProd";
 import AboutUs from "./components/AboutUs";
 import Services from "./components/Services";
+import FeedBack from "./components/FeedBack";
 
 const App = () => {
   const [{ foodItems }, dispatch] = useStateValue();
@@ -40,6 +41,7 @@ const App = () => {
             <Route path="/ManageProd" element={<ManageProd />} />
             <Route path="/AboutUs" element={<AboutUs />} />
             <Route path="/Services" element={<Services />} />
+            <Route path="/FeedBack" element={<FeedBack />} />
             
           </Routes>
         </main>
